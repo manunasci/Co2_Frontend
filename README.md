@@ -10,5 +10,5 @@ A equipe **The Perfects** é composta por 6 integrantes, estes responsáveis por
 - [Daniel Perfetti](https://github.com/DanielPerfetti)
 - [Gabriel Viana](https://github.com/viana4417)
 - [Manuella Nascimento](https://github.com/manunasci)
-- [Rafael Maia]()
+- [Rafael Maia](https://github.com/MaiA221)
 - [Ricardo Nucci](https://github.com/NucciRicardo)
