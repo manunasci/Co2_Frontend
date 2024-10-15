@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@latest/dist/chartjs-chart-matrix.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <div class="pagina-inicial">
+        <div class="button-container">
+            <button class="button_menu" onclick="esconderGrafico()">
+                <p>Home</p>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="4">
+                    <path stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+            
+            <a href="/../sobre22/index.html">
+                <button href class="quem_somos">
+                    <p>Sobre</p>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="4">
+                        <path stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+    
+
+        <h1>CORRELAÇÃO DA POPULARIZAÇÃO DOS CARROS ELÉTRICOS COM A EMISSÃO DE GÁS CARBÔNICO</h1>
+        <p>Nos últimos anos, a conscientização ambiental e as mudanças climáticas aumentaram a preocupação com efeito estufa, especialmente devido ao dióxido de carbono (CO2). A popularização dos veículos elétricos tem um impacto ambiental menor ao longo da sua vida útil, e uma resposta tecnológica a essa questão.</p>
+        <br><br>
+
+        <div class="wrapper">
+            <a class="escolher_grafico" onclick="toggleMenu()"><span>Escolher Gráfico</span></a>
+        </div>
+          
+            
+        <div class="dropdown-content" id="grafico-menu">
+            <h3>Menu Gráficos</h3>
+            <a onclick="fecharMenu()" class="bn3">Ocultar Menu</a>
+            <br><br>
+            <button onclick="mostrarGrafico('Eletric')">Venda de Veículos Elétricos (EUA)</button>
+            <button onclick="mostrarGrafico('GasEmission')">Emissão de CO2 (EUA)</button>
+            <button onclick="mostrarGraficos2()">Correlação</button>
+        </div>
+    </div>
+
+    <div class="grafico-container">
+        <canvas id="grafico"></canvas>
+    </div>
+
+    <div id="chart-container"></div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <div class="miniatura-container" id="miniatura1"></div>
+    <div class="miniatura-container" id="miniatura2"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
