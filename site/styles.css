@@ -136,8 +136,7 @@ p {
 }
 
 .miniatura-container canvas {
-    width: 100%;
-    height: auto;
+    width: 50%;
 }
 
 #wrapper{
@@ -357,3 +356,43 @@ button.quem_somos svg {
     color: #ffffff;
     background-color: #232625;
   }
+
+  #miniatura1 {
+    float: none;
+    width: 40%;
+    margin-right: 20px;  
+}
+
+#miniatura2 {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.vendas-info {
+    padding-left: 20px;
+    display: none;
+    padding-top: 10%;
+}
+
+.graficos-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#co2-info {
+    display: none;      
+    width: 50%;          
+    padding: 20px;
+    padding-top: 10%;
+}
+
+.miniaturas-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  /* Alinha os itens no topo */
+}
+
+.preto {
+    color: black;
+}
