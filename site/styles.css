@@ -373,6 +373,20 @@ button.quem_somos svg {
     height: 100%;
 }
 
+#miniatura1, #miniatura2 {
+    width: 48%;
+    height: auto;
+    margin: 1%; 
+    box-sizing: border-box;
+}
+
+.grafico-container canvas,
+.miniatura-container canvas {
+    width: 100% !important;
+    height: 80% !important;
+}
+
+
 .vendas-info {
     padding-left: 20px;
     display: none;
