@@ -114,29 +114,33 @@ p {
     margin-top: 20px;
     text-align: center;
     padding: 20px;
-    max-width: 70%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    transition: border-color 0.3s;
+    box-sizing: border-box;
 }
 
 .grafico-container canvas {
-    width: 100%; 
-    height: auto;
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 500px;
 }
 
 .miniatura-container {
     margin-top: 20px;
     text-align: center;
     padding: 20px;
-    max-width: 70%; 
+    max-width: 90%; 
     margin-left: auto;
     margin-right: auto;
     transition: border-color 0.3s;
+    box-sizing: border-box;
 }
 
 .miniatura-container canvas {
-    width: 50%;
+    width: 100% !important;
+    height: auto !important;
 }
 
 #wrapper{
@@ -360,7 +364,7 @@ button.quem_somos svg {
   #miniatura1 {
     float: none;
     width: 40%;
-    margin-right: 20px;  
+    margin-right: 20px;
 }
 
 #miniatura2 {
@@ -390,7 +394,7 @@ button.quem_somos svg {
 .miniaturas-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;  /* Alinha os itens no topo */
+    align-items: flex-start;
 }
 
 .preto {

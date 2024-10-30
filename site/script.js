@@ -109,16 +109,16 @@ function esconderMiniaturas() {
 var dadosGrafico2 = {labels: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
 datasets: [{
     label: 'Venda de Veículos Elétricos (EUA)',
-    backgroundColor: 'rgba(135, 235, 34)',
-    borderColor: 'rgba(135, 235, 34)',
+    backgroundColor: 'rgba(143,188,143)',
+    borderColor: 'rgba(143,188,143)',
     borderWidth: 1,
     data: [5105.414, 39967.161, 129399.455, 269820.792, 409440.918, 516800.901, 736631.264, 964601.649, 1495602.809, 1793702.759, 2052303.113, 2876105.719] 
 }]};
 var dadosGrafico1 = {labels: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
 datasets: [{
     label: 'Emissão de CO2 (EUA)',
-    backgroundColor: 'rgba(34, 135, 235)',
-    borderColor: 'rgba(34, 135, 235)',
+    backgroundColor: 'rgba(54,54,54)',
+    borderColor: 'rgba(54,54,54)',
     borderWidth: 1,
     data: [5679715.249, 5546116.067, 5344085.980, 5480156.537, 5528681.067, 5376473.125, 5252932.175, 5212162.345, 5377797.353, 5262145.074, 4714628.032, 5032212.819]
 }]};
